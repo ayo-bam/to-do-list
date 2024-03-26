@@ -15,7 +15,7 @@ function addTask() {
     li.textContent = taskInput.value;
     taskList.appendChild(li);
     saveTask(taskInput.value);
-    taskInput.value = "";
+    taskInput.value = "";   
 }
 
 function saveTask(task) {
